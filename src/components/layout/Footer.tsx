@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
                 <span>Academic Resume</span>
               </a>
               <a
-                href="https://docs.google.com/document/d/18YKbz72pbRtJyfsn_dl3G3RxVO5vxLjL/edit?usp=sharing&ouid=100263739301291290550&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1eOcjidYUJrXvHtlucCrP33U-fmCFFDpb/view?usp=drive_link"
                 className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
               >
                 <Download size={18} />

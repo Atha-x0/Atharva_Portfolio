@@ -2,48 +2,47 @@ import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import SectionTitle from '../ui/SectionTitle';
 import DesignCard, { DesignProject, DesignModal } from '../ui/DesignCard';
-
 const designsData: DesignProject[] = [
   {
     id: 1,
     title: "Magzine Cover UDBHAVA",
     category: "Editorial",
-    image: "src/components/sections/Images/Udbhava.jpg",
+    image: "public/Images/Udhava.webp",
     description: "Complete brand identity for an annual AI and Ml department, including logo, color palette, typography, and marketing materials."
   },
   {
     id: 2,
     title: "TiffinSeva Platform UI",
     category: "UI/UX Design",
-    image: "src/components/sections/Images/start up page.png",
+    image: "public/Images/TifffinSeva Page.webp",
     description: "User interface design for an online mess food delivery platform specializing for Batchlor's."
   },
   {
     id: 3,
     title: "korku brand label",
     category: "Branding ",
-    image: "src/components/sections/Images/Korku1.png",
+    image: "public/Images/korku1.webp",
     description: "Complete brand identity for Korku honey, including logo, color palette, typography, and marketing materials."
   },
   {
     id: 4,
     title: "Logo Design",
     category: "Branding",
-    image: "src/components/sections/Images/TiffinSeva2 bg 3].png",
+    image: "public/Images/tiffinSeva.webp",
     description: "Brand identity for an AI startup."
   },
   {
     id: 5,
     title: "Technical Event",
     category: "Editorial",
-    image: "src/components/sections/Images/TECHNOBYTE Flyer.png",
+    image: "public/Images/technobyte.webp",
     description: "Event identity for an Tecnical identity."
   },
   {
     id: 6,
     title: "Flyer",
     category: "Branding",
-    image: "src/components/sections/Images/SRAN Studio.png",
+    image: "public/Images/Sran.webp",
     description: "Design for promoting."
   }
 ];

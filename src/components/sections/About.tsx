@@ -29,7 +29,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="w-full h-[400px] lg:h-[450px] rounded-xl overflow-hidden">
                 <img
-                  src="src/components/sections/Images/Atharva.jpeg"
+                  src="public\Images\atharva pfp.webp"
                   alt="Atharva Waghale"
                   className="w-full h-full object-cover"
                 />

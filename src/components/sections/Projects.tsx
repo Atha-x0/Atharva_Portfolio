@@ -6,61 +6,41 @@ import ProjectCard, { Project } from '../ui/ProjectCard';
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "NeuralVision",
-    description: "A computer vision application that uses deep learning to identify objects in real-time video streams.",
-    image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["Python", "TensorFlow", "OpenCV", "Flask"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    title: "Academic Video Finder",
+    description: "A web platform that extracts content from academic PDF and PowerPoint files and finds relevant YouTube videos for each topic.",
+    image: "public/Images/AcademicVideoFinder.webp",
+    tags: ["Python", "HTML & CSS", "JavaScript", "Flask", "YouTube API"],
+    github: "https://github.com/Atha-x0/Academic-Video-Finder",
+    demo: "https://academic-video-finder-4b46.vercel.app/",
     category: "ai"
   },
   {
     id: 2,
-    title: "AI Design Assistant",
-    description: "A web application that leverages machine learning to help designers generate color palettes and layout suggestions.",
-    image: "https://images.pexels.com/photos/5926389/pexels-photo-5926389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["React", "Node.js", "ML", "Figma API"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    title: "AI Text Humanizer",
+    description: "An NLP-based project that transforms robotic AI-generated text into natural, human-like language while preserving meaning and tone.",
+    image: "public/Images/AiTextHumanizer.webp",
+    tags: ["React", "Node.js","javaScript", "HTML", "css", "OpenAI API", "Gemini API"],
+    github: "https://github.com/Atha-x0/AI-Text-Humanizer",
+    demo: "https://aitexthumanizer.vercel.app/",
     category: "webdev"
   },
   {
     id: 3,
-    title: "SentimentTracker",
-    description: "An NLP-based tool that analyzes customer reviews and social media mentions to track brand sentiment over time.",
-    image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["Python", "NLTK", "spaCy", "Flask", "React"],
+    title: "Cross-Platform-Sentiment-Analysis-and-Visualization",
+    description: "A comprehensive web application that analyzes sentiment across multiple social media platforms including Twitter, Reddit, YouTube, Instagram, Facebook, and Google News. The application provides real-time sentiment analysis, visualizations, and insights about trending topics.",
+    image: "public/Images/Sentiment.webp",
+    tags: ["Python", "NLTK", "spaCy", "Flask", "React", "Youtube API", "Twitter API", "Reddit API" ,"Facebook Graph API", "Google News API", "Instagram API", "D3.js", "chrome driver"],
     github: "https://github.com",
     category: "ai"
   },
   {
     id: 4,
-    title: "Portfolio Generator",
-    description: "A web app that helps designers and developers create professional portfolios with customizable templates.",
-    image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["React", "Firebase", "Tailwind CSS"],
+    title: "Conference Management System",
+    description: "The Conference Management System is a comprehensive solution developed to automate and simplify the process of managing conferences, workshops, and similar events. It provides a user-friendly interface for organizers, speakers, and participants, ensuring a seamless experience from start to finish. Whether you are hosting a small workshop or a large international conference, this system caters to all your needs.",
+    image: "public/Images/conference.webp",
+    tags: ["React", "Tailwind CSS", "clerk.js", "stramline"],
     github: "https://github.com",
-    demo: "https://demo.com",
     category: "webdev"
-  },
-  {
-    id: 5,
-    title: "HealthPredict",
-    description: "An ML model that predicts potential health risks based on lifestyle and genetic factors.",
-    image: "https://images.pexels.com/photos/4226119/pexels-photo-4226119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["Python", "scikit-learn", "Pandas", "TensorFlow"],
-    github: "https://github.com",
-    category: "ai"
-  },
-  {
-    id: 6,
-    title: "CodeExplainer",
-    description: "An educational tool that uses NLP to explain complex code snippets in plain English for programming students.",
-    image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    tags: ["Python", "NLP", "React", "Node.js"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    category: "ai"
   }
 ];
 

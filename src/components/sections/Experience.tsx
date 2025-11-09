@@ -9,7 +9,7 @@ const experienceData: TimelineEvent[] = [
     id: 1,
     title: "Frontend and AI/ML Intern",
     organization: "Lemon Idea",
-    period: "Apr 2025 - Present",
+    period: "Apr 2025 - May 2025",
     description: "Worked with a variety of technologies, including React, Next.js, Typescript, Tailwindcss, leaflet.js and others.",
     icon: <Briefcase />
   },

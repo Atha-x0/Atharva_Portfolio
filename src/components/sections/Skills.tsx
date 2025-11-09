@@ -17,34 +17,76 @@ const skillsData: Skill[] = [
   {
     name: "Python",
     icon: <Code className="w-6 h-6 text-white" />,
-    level: 90,
+    level: 80,
     category: "programming",
     color: "bg-primary-500 text-white"
   },
   {
     name: "JavaScript",
     icon: <Code className="w-6 h-6 text-white" />,
-    level: 85,
+    level: 45,
     category: "programming",
     color: "bg-primary-500 text-white"
   },
   {
     name: "React",
     icon: <LayoutGrid className="w-6 h-6 text-white" />,
+    level: 50,
+    category: "programming",
+    color: "bg-primary-500 text-white"
+  },
+  {
+    name: "HTML & CSS",
+    icon: <LayoutGrid className="w-6 h-6 text-white" />,
     level: 80,
+    category: "programming",
+    color: "bg-primary-500 text-white"
+  },
+  {
+    name: "C++",
+    icon: <LayoutGrid className="w-6 h-6 text-white" />,
+    level: 70,
+    category: "programming",
+    color: "bg-primary-500 text-white"
+  },
+   {
+    name: "Tailwind CSS",
+    icon: <LayoutGrid className="w-6 h-6 text-white" />,
+    level: 50,
     category: "programming",
     color: "bg-primary-500 text-white"
   },
   {
     name: "TensorFlow",
     icon: <BrainCircuit className="w-6 h-6 text-white" />,
-    level: 75,
+    level: 50,
+    category: "ai",
+    color: "bg-accent-500 text-white"
+  },
+  {
+    name: "Mathematics and Statistics for AI",
+    icon: <BrainCircuit className="w-6 h-6 text-white" />,
+    level: 70,
     category: "ai",
     color: "bg-accent-500 text-white"
   },
   {
     name: "PyTorch",
     icon: <BrainCircuit className="w-6 h-6 text-white" />,
+    level: 50,
+    category: "ai",
+    color: "bg-accent-500 text-white"
+  },
+    {
+    name: "NLP",
+    icon: <Bot className="w-6 h-6 text-white" />,
+    level: 65,
+    category: "ai",
+    color: "bg-accent-500 text-white"
+  },
+  {
+    name: "Computer Vision",
+    icon: <Cpu className="w-6 h-6 text-white" />,
     level: 70,
     category: "ai",
     color: "bg-accent-500 text-white"
@@ -53,6 +95,13 @@ const skillsData: Skill[] = [
     name: "Figma",
     icon: <Paintbrush className="w-6 h-6 text-white" />,
     level: 85,
+    category: "design",
+    color: "bg-secondary-500 text-white"
+  },
+   {
+    name: "Canva",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 95,
     category: "design",
     color: "bg-secondary-500 text-white"
   },
@@ -70,33 +119,40 @@ const skillsData: Skill[] = [
     category: "design",
     color: "bg-secondary-500 text-white"
   },
-  {
-    name: "NLP",
-    icon: <Bot className="w-6 h-6 text-white" />,
-    level: 65,
-    category: "ai",
-    color: "bg-accent-500 text-white"
+   {
+    name: "Affinity Designer",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 85,
+    category: "design",
+    color: "bg-secondary-500 text-white"
   },
-  {
-    name: "Computer Vision",
-    icon: <Cpu className="w-6 h-6 text-white" />,
-    level: 70,
-    category: "ai",
-    color: "bg-accent-500 text-white"
+   {
+    name: "After Effects",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 50,
+    category: "design",
+    color: "bg-secondary-500 text-white"
   },
-  {
-    name: "Firebase",
-    icon: <Database className="w-6 h-6 text-white" />,
-    level: 80,
-    category: "programming",
-    color: "bg-primary-500 text-white"
+   {
+    name: "Adobe Premiere Pro",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 50,
+    category: "design",
+    color: "bg-secondary-500 text-white"
   },
-  {
-    name: "Tailwind CSS",
-    icon: <LayoutGrid className="w-6 h-6 text-white" />,
-    level: 90,
-    category: "programming",
-    color: "bg-primary-500 text-white"
+   {
+    name: "Alight Motion",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 20,
+    category: "design",
+    color: "bg-secondary-500 text-white"
+  },
+   {
+    name: "Capcut",
+    icon: <Paintbrush className="w-6 h-6 text-white" />,
+    level: 95,
+    category: "design",
+    color: "bg-secondary-500 text-white"
   }
 ];
 
